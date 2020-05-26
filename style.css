@@ -1,3 +1,34 @@
+html {
+  background: #3953db;
+}
+
+#titulo {
+  color: #aec1fb;
+}
+
 .formulario {
   margin-top: 5%;
+}
+
+.jumbotron {
+  background: #110954;
+}
+
+#all {
+  background: #3953db;
+  color: #ffffff;
+}
+
+form {
+  padding: 50px 120px 50px 120px;
+}
+
+.form-text-text-muted {
+  color: #aec1fb;
+}
+
+.page-header {
+  padding-bottom: 0px;
+  margin: 40px 0 10px;
+  border-bottom: 0px;
 }

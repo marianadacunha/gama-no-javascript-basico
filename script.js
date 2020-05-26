@@ -18,7 +18,6 @@ function validaCPF(cpf) {
         }
         console.log(soma);
 
-        var resultado = (soma % 11) < 2 ? 0 : 11 - (soma % 11); // ':' significa else
         
         // validação do primeiro digito
         if (resultado != digitoVerificador.charAt(0)){
