@@ -60,15 +60,16 @@ form {
   font-weight: 800;
 }
 
-#error {
-  background: #860000;
+#success {
+  background: #008616;
   margin: -20px 120px 0px 120px;
   border: 0px;
   color: #ffffff;
 }
 
-#success {
-  background: #008616;
+#error {
+  background: #860000;
+  margin: -20px 120px 0px 120px;
   border: 0px;
   color: #ffffff;
 }

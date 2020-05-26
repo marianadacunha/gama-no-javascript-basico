@@ -18,7 +18,7 @@ function validaCPF(cpf) {
         }
         console.log(soma);
 
-        
+
         // validação do primeiro digito
         if (resultado != digitoVerificador.charAt(0)){
             return false;
@@ -32,7 +32,7 @@ function validaCPF(cpf) {
 
         }
 
-        resultado = (soma % 11) > 2 ? 0 : 11 - (soma % 11);
+        var resultado = (soma % 11) > 2 ? 0 : 11 - (soma % 11);
 
         // validação do segundo digito
         if (resultado != digitoVerificador.charAt(1)){
@@ -43,7 +43,6 @@ function validaCPF(cpf) {
     }
 }
 
-
 function validacao() {
     console.log("Iniciando validação de CPF");
     
@@ -53,12 +52,10 @@ function validacao() {
 
     if (resultadoValidacao) {
         document.getElementById('error').style.display = 'none'; // oculta o erro caso ele já tenha sido exibido anteriormente
-        document.getElementById("success").style.display = 'block'; // irá aparecer mensagem de sucesso
+        document.getElementById('success').style.display = 'block'; // irá aparecer mensagem de sucesso
     }
     else {
         document.getElementById('success').style.display = 'none'; // oculta success caso já tenha sido exibido anteriormente
-        document.getElementById("error").style.display = 'block'; // irá aparecer mensagem de erro
+        document.getElementById('error').style.display = 'block'; // irá aparecer mensagem de erro
     }
 }
-
-
