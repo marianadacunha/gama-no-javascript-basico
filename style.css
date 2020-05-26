@@ -65,6 +65,8 @@ form {
   margin: -20px 120px 0px 120px;
   border: 0px;
   color: #ffffff;
+  width: 180px;
+  text-align: center;
 }
 
 #error {
@@ -72,4 +74,6 @@ form {
   margin: -20px 120px 0px 120px;
   border: 0px;
   color: #ffffff;
+  width: 220px;
+  text-align: center;
 }
