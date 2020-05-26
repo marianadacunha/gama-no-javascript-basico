@@ -4,6 +4,12 @@ html {
 
 #titulo {
   color: #aec1fb;
+  font-weight: 800;
+  font-family: 'Inconsolata', monospace;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
 }
 
 .formulario {
@@ -24,6 +30,7 @@ form {
 }
 
 .form-text-text-muted {
+  font-family: 'Inconsolata', monospace;
   color: #aec1fb;
 }
 
@@ -31,4 +38,37 @@ form {
   padding-bottom: 0px;
   margin: 40px 0 10px;
   border-bottom: 0px;
+}
+
+#sizing-addon1 {
+  background: #aec1fb;
+  color: #110954;
+  font-weight: 600;
+  border: 0px;
+  font-family: 'Inconsolata', monospace;
+}
+
+#cpf_digitado {
+  font-family: 'Inconsolata', monospace;
+}
+
+#botao {
+  font-family: 'Inconsolata', monospace;
+  background: #110954;
+  color: #aec1fb;
+  border: 0px;
+  font-weight: 800;
+}
+
+#error {
+  background: #860000;
+  margin: -20px 120px 0px 120px;
+  border: 0px;
+  color: #ffffff;
+}
+
+#success {
+  background: #008616;
+  border: 0px;
+  color: #ffffff;
 }
