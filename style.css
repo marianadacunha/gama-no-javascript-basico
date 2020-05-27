@@ -1,11 +1,25 @@
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
 html {
-  background: #3953db;
+  background: #243db9;
 }
 
 #titulo {
   color: #aec1fb;
   font-weight: 800;
   font-family: 'Inconsolata', monospace;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 p {
@@ -21,7 +35,7 @@ p {
 }
 
 #all {
-  background: #3953db;
+  background: #243db9;
   color: #ffffff;
 }
 
