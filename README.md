@@ -2,8 +2,7 @@
 
 In this code, the user inputs a number and it is checked whether the number is a valid CPF (Individual Taxpayer Register) or not. The CPF is the register maintained by the Federal Revenue of Brazil in which anyone can register only once. Each registrant is uniquely identified by a number of 11 decimal digits. The Brazilian state from which it was issued is identified by the last digit before the two check digits.
 
-**Example:**</br>
-CPF XXX.XXX.XX3-XX, the number 3 corresponds to the state of Ceará.
+* **Example**: CPF XXX.XXX.XX3-XX, the number 3 corresponds to the state of Ceará.
 
 Codes corresponding to the Brazilian states:
 
