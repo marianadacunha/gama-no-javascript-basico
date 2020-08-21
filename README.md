@@ -17,7 +17,7 @@ Codes corresponding to the Brazilian states:
 9. Paraná and Santa Catarina;
 0. Rio Grande do Sul.
 
-### Preview
+# Preview
 
 You can see the live site clicking <a href="https://marianadacunha.github.io/validador-de-cpf/">here</a>.</br>
 ![Screenshot](https://i.ibb.co/bX9PH2Q/image.png)
